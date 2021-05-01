@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>BMI Calculator</title>
+</head>
+
+<body>
+
+  <div class="bmi d-flex justify-content-center">
+
+    <div class="bmi-form border rounded p-4 mt-5">
+      <h1 class="form-title text-secondary">BMI Calculator</h1>
+      <p class="warning-sign text-danger">
+      
+      </p>
+      <form>
+        <div class="input-fields m-5">
+          <input type="text" id="weight" name="Weight" placeholder="Weight in kg" class="p-2 mb-5"><br>
+          <input type="text" id="height" name="height" placeholder="Height in cm" class="p-2 mb-3"><br>
+        </div>
+        <button type="button" class="btn btn-primary w-100">Calculate</button>
+      </form>
+      <div class="bmi-results text-center mt-4">
+      <h2 class="result pt-2 text-secondary">Result</h2>
+      <p class="bmi-result"></p>
+      </div>
+    </div>
+
+  </div>
+
+  <footer><p>&copy; Copywrite 2021 | AbeerDawood</p></footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
